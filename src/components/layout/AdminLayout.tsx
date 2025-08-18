@@ -49,7 +49,7 @@ const AdminLayout = ({ children }: { children: React.ReactNode }) => {
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
 
-  // Redirect if not admin
+  // Hi prends.....
   React.useEffect(() => {
     if (isAuthenticated && !isAdmin) {
       navigate('/');
